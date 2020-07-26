@@ -13,3 +13,53 @@
     <image src="/images/msgbox.png" mode="widthFix"></image>
   </navigator>
 </view>
+
+<view class="view-swiper">
+  <swiper indicator-dots indicator-color="rgba(255, 255, 255, 0.5)" indicator-active-color="rgba(255, 255, 255)" circular autoplay interval="{{3000}}">
+    <swiper-item><image src="/images/2.png"></image></swiper-item>
+    <swiper-item><image src="/images/3.png"></image></swiper-item>
+    <swiper-item><image src="/images/4.png"></image></swiper-item>
+    <swiper-item><image src="/images/5.png"></image></swiper-item>
+    <swiper-item><image src="/images/6.png"></image></swiper-item>
+  </swiper>
+</view>
+
+<scroll-view class="scroll-technology" scroll-x>
+  <navigator>
+    <image src="/images/Vue.png"></image>
+    <view>VUE</view>
+  </navigator>
+  <navigator>
+    <image src="/images/javascript.png"></image>
+    <view>JAVAScript</view>
+  </navigator>
+  <navigator>
+    <image src="/images/CSS3.png"></image>
+    <view>CSS3</view>
+  </navigator>
+  <navigator>
+    <image src="/images/HTML5.png"></image>
+    <view>HTML5</view>
+  </navigator>
+  <navigator>
+    <image src="/images/java.png"></image>
+    <view>JAVA</view>
+  </navigator>
+  <navigator>
+    <image src="/images/mysql.png"></image>
+    <view>MYSQL</view>
+  </navigator>
+</scroll-view>
+
+<view class="view-works container">
+  <view class="top-bar">
+    <view class="title">
+      <image src="/images/listline.png" mode="widthFix"></image>
+      <text>作品展示</text>
+    </view>
+    <navigator class="more">更多>></navigator>
+  </view>
+  <view class="works-container">
+    <view class="item"></view>
+  </view>
+</view>
