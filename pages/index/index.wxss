@@ -1,0 +1,48 @@
+.header {
+ width: 100%;
+ height: 90rpx;
+ background: pink;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.header .logo {
+ position: relative;
+}
+
+.header .logo .btn {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ left: 0;
+ top: 0;
+ opacity: 0;
+}
+
+.header .logo text {
+ color: darksalmon;
+ padding-left: 15rpx;
+}
+
+.header .kefu {
+ position: relative;
+}
+.header .kefu .btn {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ opacity: 0;
+}
+
+.header .logo image {
+ width: 50rpx;
+ vertical-align: middle;
+}
+.header .kefu image {
+ width: 50rpx;
+}
+
+

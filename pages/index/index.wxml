@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="header container">
+  <view class="logo" wx:if="{{!hasUserInfo && canIUse}}">
+    <button class="btn" open-type="getUserInfo" bindgetuserinfo="getUserInfo"></button>
+    <text>获取头像昵称</text>
+  </view>
+  <navigator class="logo" wx:else url="/pages/index/index">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="widthFix"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </navigator>
+  <navigator class="kefu">
+    <button class="btn" open-type="contact"></button>
+    <image src="/images/msgbox.png" mode="widthFix"></image>
+  </navigator>
+</view>
